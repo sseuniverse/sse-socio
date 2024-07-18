@@ -12,7 +12,7 @@ export default defineConfig({
   build: {
     outDir: "dist",
     rollupOptions:{
-      external: ["react"]
+      external: ["react", "react/jsx-runtime"]
     }
   },
 });
